@@ -1,148 +1,148 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffff;
-    padding: 0;
-    margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffff;
+  padding: 0;
+  margin: 0;
 }
 
 /* login form */
 .login {
-    height: 100vh;
+  height: 100vh;
 }
 
 /* login left */
 .judul-apk h1 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .judul-apk h2 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
 }
 
 .judul-apk span {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #7E8A96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7E8A96;
 }
 
 .judul-apk span p span {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #217FEC;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #217FEC;
 }
 
 /* login right */
 .login-right {
-    background-color: #EEF1FF;
+  background-color: #EEF1FF;
 }
 
 .header h2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 50px;
 }
 
 .login-form label {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .login-form .form-control {
-    background: #FFFFFF;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
-    height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+  height: 40px;
 }
 
 .login-form .form-check {
-    position: relative;
-    margin-bottom: 100px;
+  position: relative;
+  margin-bottom: 100px;
 }
 
 .login-form .signin {
-    width: 190px;
-    height: 50px;
-    background: #B1B2FF;
-    border-radius: 5px;
-    border-style: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    position: absolute;
-    right: 0;
+  width: 190px;
+  height: 50px;
+  background: #B1B2FF;
+  border-radius: 5px;
+  border-style: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  position: absolute;
+  right: 0;
 }
 
 .login-form span {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: #D0D6D4;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #D0D6D4;
 }
 
 .login-form span a {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #B1B2FF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #B1B2FF;
 }
 
 /* registration */
 .registration {
-    height: fit-content;
+  height: fit-content;
 }
 
 .regis-left {
-    width: 50%;
-    align-self: center;
+  width: 50%;
+  align-self: center;
 }
 
 .regis-right {
-    background-color: #EEF1FF;
-    width: 50%;
+  background-color: #EEF1FF;
+  width: 50%;
 }
 
 .registration-form label {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .registration-form .form-control {
-    background: #FFFFFF;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
-    height: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+  height: 30px;
 }
 
 .registration-form .cancel {
-    width: 190px;
-    height: 50px;
-    background: #628395;
-    border-radius: 5px;
-    border-style: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+  width: 190px;
+  height: 50px;
+  background: #628395;
+  border-radius: 5px;
+  border-style: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .registration-form .signup {
-    width: 190px;
-    height: 50px;
-    background: #B1B2FF;
-    border-radius: 5px;
-    border-style: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+  width: 190px;
+  height: 50px;
+  background: #B1B2FF;
+  border-radius: 5px;
+  border-style: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 /* sidebar */
@@ -150,8 +150,9 @@ body {
   display: flex;
   min-height: 100vh;
 }
-.sidebar{
-  background-color:  #EEF8FF;
+
+.sidebar {
+  background-color: #EEF8FF;
   width: 260px;
   padding: 24px;
   display: flex;
@@ -159,15 +160,18 @@ body {
   flex-direction: column;
   transition: all ease-in 0.3s;
 }
-.sidebar.hide{
+
+.sidebar.hide {
   width: 87px;
   transition: all ease-out 0.3s;
 }
-.main-content{
+
+.main-content {
   background-color: #F5F5F5;
   flex-grow: 1;
 }
-.sidebar .description-header{
+
+.sidebar .description-header {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -175,14 +179,16 @@ body {
   text-align: center;
   color: #000;
 }
-.sidebar.hide .description-header{
+
+.sidebar.hide .description-header {
   display: none;
 }
-.sidebar a{
+
+.sidebar a {
   text-decoration: none;
 }
 
-.sidebar .header .list-item{
+.sidebar .header .list-item {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -191,10 +197,12 @@ body {
   height: 40px;
   box-sizing: border-box;
 }
-.sidebar .header .list-item{
+
+.sidebar .header .list-item {
   margin-right: 12px;
 }
-.sidebar .header .illustration{
+
+.sidebar .header .illustration {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -202,11 +210,12 @@ body {
   margin: 10px 0px 22px 0px;
   box-sizing: border-box;
 }
-.sidebar.hide .illustration{
+
+.sidebar.hide .illustration {
   display: none;
 }
 
-.sidebar .main .list-item .description{
+.sidebar .main .list-item .description {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -214,14 +223,16 @@ body {
   text-align: center;
   color: #000;
 }
-.sidebar.hide .main .list-item .description{
+
+.sidebar.hide .main .list-item .description {
   display: none;
 }
 
-.sidebar .main .list-item .icon{
+.sidebar .main .list-item .icon {
   margin-right: 12px;
 }
-.sidebar .main .list-item{
+
+.sidebar .main .list-item {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -235,55 +246,68 @@ body {
   transition: all ease-in .2s;
 }
 
-.sidebar.hide .main .list-item-menu{
+.sidebar.hide .main .list-item-menu {
   display: none;
-  margin-left: 60px; 
+  margin-left: 60px;
   margin-top: 30px;
 }
-.sidebar .main .list-item-menu{
+
+.sidebar .main .list-item-menu {
   margin-bottom: 5px;
 }
-.sidebar .main .list-item:hover{
+
+.sidebar .main .list-item:hover {
   background-color: #AAC4FF;
   transition: all ease-in .2s;
 }
 
 /* ? Toogle Menu */
-#menu-button{
+#menu-button {
   width: 32px;
   position: absolute;
   overflow: hidden;
 }
-#menu-label{
+
+#menu-label {
   position: relative;
   display: block;
   height: 20px;
   cursor: pointer;
 }
-#menu-checkbox{
+
+#menu-checkbox {
   display: none;
 }
-#hamburger, #menu-label::after, #menu-label::before{
+
+#hamburger,
+#menu-label::after,
+#menu-label::before {
   position: absolute;
   left: 0;
   width: 100%;
   height: 4px;
   background-color: black;
 }
-#menu-label::after, #menu-label::before{
+
+#menu-label::after,
+#menu-label::before {
   content: "";
   transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-#menu-label::before{
+
+#menu-label::before {
   top: 0;
 }
-#menu-label::after{
+
+#menu-label::after {
   top: 8px;
 }
-#hamburger{
+
+#hamburger {
   top: 16px;
 }
-#hamburger::before{
+
+#hamburger::before {
   content: "MENU";
   position: absolute;
   top: 5px;
@@ -294,56 +318,128 @@ body {
   font-weight: bold;
   text-align: center;
 }
-#menu-checkbox:checked + #menu-label::before{
+
+#menu-checkbox:checked+#menu-label::before {
   left: -39px;
 }
-#menu-checkbox:checked + #menu-label::after{
+
+#menu-checkbox:checked+#menu-label::after {
   left: 39px;
 }
-#menu-checkbox:checked + #menu-label #hamburger::before {
-  animation: moveUpThenDown 0.8s ease 0.2s forwards, shakeUp 0.8s ease 0.2 forwards, shakeDown 0.2s ease 0.8s forwards ;
+
+#menu-checkbox:checked+#menu-label #hamburger::before {
+  animation: moveUpThenDown 0.8s ease 0.2s forwards, shakeUp 0.8s ease 0.2 forwards, shakeDown 0.2s ease 0.8s forwards;
 }
+
 @keyframes moveUpThenDown {
-  0%{
+  0% {
     top: 0;
   }
-  50%{
+
+  50% {
     top: -27px;
   }
-  100%{
+
+  100% {
     top: -14px;
   }
 }
+
 @keyframes shakeUp {
-  0%{
+  0% {
     transform: rotateZ(0);
   }
-  25%{
+
+  25% {
     transform: rotateZ(-10deg);
   }
-  50%{
+
+  50% {
     transform: rotateZ(0);
   }
-  75%{
+
+  75% {
     transform: rotateZ(10deg);
   }
-  100%{
+
+  100% {
     transform: rotateZ(0);
   }
 
 }
+
 @keyframes shakeDown {
-  0%{
-    transform: rotateZ(0);
-  }
-  80%{
-    transform: rotateZ(-3deg);
-  }
-  90%{
-    transform: rotateZ(-3deg);
-  }
-  100%{
+  0% {
     transform: rotateZ(0);
   }
 
+  80% {
+    transform: rotateZ(-3deg);
+  }
+
+  90% {
+    transform: rotateZ(-3deg);
+  }
+
+  100% {
+    transform: rotateZ(0);
+  }
+
+}
+
+/* main content dashboard */
+.header-content {
+  background-color: #E2D4EF;
+  height: 70px;
+  margin: 0 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.header-content h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.card-pegawai {
+  width: 212px;
+  height: 107px;
+  background: #D9D9D9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.box-icon {
+  width: 60px;
+  height: 57px;
+  background: #46EC2B;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-description {
+  padding-left: 15px;
+}
+
+.card-description h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.card-description span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
