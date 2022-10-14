@@ -488,3 +488,24 @@ body {
 .footer p span {
   color: #217FEC;
 }
+
+/* form rawat jalan */
+.card-identitas {
+  height: auto;
+  background: #ffff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-keluhan {
+  height: auto;
+  background: #ffff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-identitas-subtitle {
+  margin: 30px 0;
+}
