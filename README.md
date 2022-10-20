@@ -4,9 +4,10 @@ For Veteran Competition Programming
 
 ## Demo Aplikasi
 
-| URL | https://rekamedis.herokuapp.com/ |
-| NRP | 8888|
-| password | 123
+| URL      | https://rekamedis.herokuapp.com/ |
+| -------- | -------------------------------- |
+| NRP      | 8888                             |
+| password | 123                              |
 
 ## Tech Stack
 
