@@ -1,0 +1,83 @@
+<div class="card mt-4">
+  <div class="card-header">Tambah Pasien</div>
+  <div class="card-body">
+    <form action="/addpasien" method="post">
+      <div class="mb-3 row">
+        <label for="inputNama" class="col-sm-2 col-form-label">Nama</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputNama" name="name" />
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="inputRadio" class="col-sm-2 col-form-label"
+          >Jenis Kelamin</label
+        >
+        <div class="col-sm-10">
+          <input
+            type="radio"
+            class="form-check-input"
+            id="inputRadio"
+            value="laki-laki"
+            name="gender"
+            checked
+          />Laki Laki
+          <input
+            type="radio"
+            class="form-check-input ms-4"
+            id="inputRadio"
+            value="perempuan"
+            name="gender"
+          />Perempuan
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="inputText" class="col-sm-2 col-form-label">Alamat</label>
+        <div class="col-sm-10">
+          <input
+            type="text"
+            class="form-control"
+            id="inputText"
+            name="address"
+          />
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="inputTTL" class="col-sm-2 col-form-label"
+          >Tanggal Lahir</label
+        >
+        <div class="col-sm-10">
+          <input
+            type="date"
+            class="form-control"
+            id="inputTTL"
+            name="born_date"
+          />
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="inputTelp" class="col-sm-2 col-form-label">No Telp</label>
+        <div class="col-sm-10">
+          <input
+            type="text"
+            class="form-control"
+            id="inputTelp"
+            name="contact"
+          />
+        </div>
+      </div>
+      <div class="mb-3 row">
+        <label for="inputStat" class="col-sm-2 col-form-label">Status</label>
+        <div class="col-sm-10">
+          <input
+            type="text"
+            class="form-control"
+            id="inputStat"
+            name="status"
+          />
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">SEND</button>
+      <a href="/pasien" role="button" class="btn btn-danger">BACK</a>
+    </form>
+  </div>
+</div>

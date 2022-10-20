@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="user-table mt-3">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Nama</th>
+          <th scope="col">Alamat</th>
+          <th scope="col">Jenis Kelamin</th>
+          <th scope="col">Pekerjaan</th>
+          <th scope="col">NRP</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% data.forEach(pegawai => { %>
+        <tr>
+          <th><%= pegawai.name %></th>
+          <td><%= pegawai.address %></td>
+          <td><%= pegawai.jkel %></td>
+          <td><%= pegawai.role %></td>
+          <td><%= pegawai.nrp %></td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+<div class="sidebar">
+  <div class="header">
+    <div class="list-item">
+      <a href="">
+        <img
+          src="./assets/img/hospital-small.svg"
+          width="30"
+          class="icon"
+          style="margin-right: 5px"
+        />
+        <span class="description-header">Medical Records</span>
+        <hr />
+      </a>
+    </div>
+  </div>
+  <div class="main">
+    <div class="list-item <%= (title === "Dashboard") ? "aktif-sidebar" : ""  %> " style="margin-top: 80px">
+      <a href="/dashboard">
+        <img src="./assets/img/dashboard-icon.svg" width="19" class="icon" />
+        <span class="description">Dashboard</span>
+      </a>
+    </div>
+    <div
+      class="list-item-menu"
+      style="margin-left: 60px; margin-top: 30px; font-size: 10px"
+    >
+      <span class="main-menu">MENU</span>
+    </div>
+    
+    <div class="list-item <%= (title === "Data Pasien") ? "aktif-sidebar" : "" %> ">
+      <a href="/pasien">
+        <img src="./assets/img/medical-icon.svg" width="19" class="icon" />
+        <span class="description">Data Pasien</span>
+      </a>
+    </div>
+    <div class="list-item  <%= (title === "Data Pegawai") ? "aktif-sidebar" : "" %> ">
+      <a href="/pegawai">
+        <img src="./assets/img/medical-icon.svg" width="19" class="icon" />
+        <span class="description">Data Pegawai</span>
+      </a>
+    </div>
+    
+    <div class="list-item" style="margin-top: 50px">
+      <form action="/logout" method="post">
+        <button type="submit" class="btn">
+          <img src="./assets/img/Shutdown.png" width="17" class="icon" />
+          <span class="description">Log Out</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+<div class="container">
+  <% if (msg) { %>
+  <div
+    class="alert alert-success alert-dismissible fade show mt-3"
+    role="alert"
+  >
+    <p><%= msg %></p>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="alert"
+      aria-label="Close"
+    ></button>
+  </div>
+  <% } %>
+  <div class="add-users mt-3">
+    <a href="/addpasien" role="button" class="btn btn-primary">+ Pasien</a>
+  </div>
+  <div class="user-table mt-3">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Nama</th>
+          <th scope="col">Jenis Kelamin</th>
+          <th scope="col">Alamat</th>
+          <th scope="col">Tanggal Lahir</th>
+          <th scope="col">Pekerjaan</th>
+          <th scope="col">NRP</th>
+          <th scope="col" class="text-center">Aksi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% data.forEach(pasien => { %>
+        <tr>
+          <form
+            style="width: 50px"
+            action="/deletepasien/<%= pasien.id %> "
+            method="post"
+          >
+            <th><%= pasien.name %></th>
+            <td><%= pasien.gender %></td>
+            <td><%= pasien.address %></td>
+            <td><%= pasien.born_date.toDateString() %></td>
+            <td><%= pasien.contact %></td>
+            <td><%= pasien.status %></td>
+            <td class="text-center">
+              <a
+                href="/pasien?id=<%= pasien.id %> "
+                role="button"
+                class="btn btn-success"
+                >Update</a
+              >
+
+              <button class="btn btn-danger">Delete</button>
+            </td>
+          </form>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+</div>
