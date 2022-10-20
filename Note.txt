@@ -1,0 +1,29 @@
+## rekam-medis-vcp
+
+For Veteran Competition Programming
+
+## Demo Aplikasi
+
+| URL      | https://rekamedis.herokuapp.com/ |
+| -------- | -------------------------------- |
+| NRP      | 8888                             |
+| password | 123                              |
+
+## Tech Stack
+
+- JavaScript
+- Node.Js
+- ExpressJs
+- MySql
+
+### Cara menjalankan project pada server local
+
+pastikan telah terinstall node.js dan npm
+
+1. buka terminal (gitbash / PowerShell / iTerm / yg support git), arahkan pada direktory rekam-medis-vcp
+2. pada terminal `npm install`
+3. tunggu instalasi package yang dibutukan
+
+   - jika sukses maka, tampil direktori node_modules dan file package-lock.json
+
+4. jalankan local server dengan perintah `node app.js`
