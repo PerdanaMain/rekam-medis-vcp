@@ -31,5 +31,3 @@ pastikan telah terinstall node.js dan npm
    - jika sukses maka, tampil direktori node_modules dan file package-lock.json
 
 5. jalankan local server dengan perintah `node app.js`
-
-6. clone repository ini
